@@ -1,0 +1,24 @@
+#container{
+    position: relative; /*É o padrão*/
+    height: 96vh;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+a{
+    padding: 10px;
+    font-size: large;
+    color: aqua;
+}
